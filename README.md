@@ -1,5 +1,4 @@
-# diy_ra_toolkit
-DIY Risk Assessment Toolkit
+# DIY Risk Assessment Toolkit
 
 This repository includes the following files, which should help perform a DIY Risk Assessment, as well as help improve security.  It includes the following files:
 
