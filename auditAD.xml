@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<auditSEC>
+  <EMAIL To="security@company.com, hr@company.com" From="AuditAD &lt;auditsec@domain.com>" Subject="AuditAD Alert" />
+  <LDAP host="<DC IP Address>" dn="<DN Username>" pw="<PW>" />
+	<SEC-GROUP name="Administrators" dn="CN=Administrators,CN=Builtin,DC=company,DC=lcl">
+		<CN>Administrator</CN>
+		<CN>Domain Admins</CN>
+		<CN>Enterprise Admins</CN>
+		<CN>Yan Kravchenko</CN>
+		<CN>LDAP Lookup</CN>
+	</SEC-GROUP>
+	<SEC-GROUP name="Domain Admins" dn="CN=Domain Admins,CN=Users,DC=company,DC=lcl">
+		<CN>Administrator</CN>
+		<CN>Yan Kravchenko</CN>
+		<CN>security-admin</CN>
+	</SEC-GROUP>
+	<SEC-GROUP name="Enterprise Admins" dn="CN=Enterprise Admins,CN=Users,DC=company,DC=lcl">
+		<CN>Administrator</CN>
+		<CN>Domain Admins</CN>
+		<CN>Yan Kravchenko</CN>
+	</SEC-GROUP>		
+</auditSEC>
+
